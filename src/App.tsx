@@ -4,7 +4,6 @@ import persona from "../src/assets/persona.png";
 import Habilidades from "./components/Habilidades";
 import Projetos from "./components/Projetos";
 import Sobre from "./components/Sobre";
-import BackgroundAnimation from "./components/animation";
 
 function App() {
   return (

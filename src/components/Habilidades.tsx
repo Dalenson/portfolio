@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import pytonUrl from '../assets/pyton.svg';
 import javaUrl from '../assets/java.svg';
 import typeScriptUrl from '../assets/typescript.svg';

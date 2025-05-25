@@ -1,12 +1,10 @@
-import { Box, Button, Modal, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import users from "../assets/applications/usuarios.png";
 import previsaotempo from "../assets/applications/previsaotempo.png";
 import extensaochrome from "../assets/applications/extensaochrome.png";
 import gamepalavras from "../assets/applications/gamepalavras.png";
 import listatelefonica from "../assets/applications/listatelefonica.png";
 import gamepedrapapel from "../assets/applications/gamepedrapapel.png";
-import * as React from 'react';
-import icon from '../assets/aws.svg';
 import iconRedirect from '../assets/redirect.svg';
 import apiIcon from '../assets/api.svg';
 import tempo from '../assets/tempo.svg';
@@ -19,19 +17,7 @@ import picpay from '../assets/picpay.svg';
 
 
 function Projetos() {
-  type projeto = {
-    nome: string;
-    imagem: string;
-    descricao: string;
-  };
 
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = (item: projeto) => {
-    setOpen(true);
-    setProjeto(item);
-  }
-  const handleClose = () => setOpen(false);
-  const [projestoSelecionado, setProjeto] = React.useState<projeto | null>(null);
   const projetos = [
     {
       nome: "CRUD de pessoas",
